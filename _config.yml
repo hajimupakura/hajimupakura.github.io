@@ -1,10 +1,10 @@
-title: Deep Learning Blog
-email: hajimupakura@gmail.com
-description: Blogs by hajimupakura | hajimupakura@gmail.com
+title: Deep Learning And AI Revolution - The 4th Industrial Revolution
+email: hmpakula@gmail.com
+description: Blogs by hajimupakura | hmpakula@gmail.com
 baseurl: ""
 url: "https://hmupakura.github.io"
 twitter_username: hajimupakura
-github_username:  hajimupakura
+github_username:  hmupakura
 markdown: kramdown
 gems:
   - jekyll-feed
