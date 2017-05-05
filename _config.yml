@@ -1,0 +1,15 @@
+title: Deep Learning Blog
+email: hajimupakura@gmail.com
+description: Blogs by hajimupakura | hajimupakura@gmail.com
+baseurl: ""
+url: "https://hajimupakura.github.io"
+twitter_username: hajimupakura
+github_username:  hajimupakura
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-gist
+  - execjs
+exclude:
+  - Gemfile
+  - Gemfile.lock

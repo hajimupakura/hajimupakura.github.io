@@ -1,0 +1,14 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+  background-image: url('/assets/me.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}

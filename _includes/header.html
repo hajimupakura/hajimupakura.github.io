@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.desc %}{{ page.desc | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.keywords == null %}<meta name="keywords" content="Deep Learning, Neural Networks, Image Recognition">{% else %}<meta property="keywords"  content="{{ page.keywords }}" />{% endif %}
+    <meta name="author" content="zaffnet">
+    <meta property="og:site_name" content="Deep Learning Blogs"/>
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:type"content="article" />
+    {% if page.title == null %}<meta property="og:title" content="Deep Learning Blogs" />{% else %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
+    <meta property="og:description" content="{% if page.desc %}{{ page.desc | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+    {% if page.og_image_url == null %}<meta property="og:image" content="{{ '/assets/og_image.jpg' | prepend: site.baseurl | prepend: site.url }}" />{% else %}<meta property="og:image" content="{{ page.og_image_url | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
+    {% if page.canonical == null %}<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% else %}<link rel="canonical" href="{{ page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+    {% if page.title == null %}<title>Deep Learning Blogs</title>{% else %}<title>{{ page.title }}</title>{% endif %}
+    <link rel="icon" href="{{ "assets/favicon.ico" | absolute_url }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='{{ "assets/css/main.css" | absolute_url }}' rel="stylesheet">
+    <script src="https://use.fontawesome.com/fe7e46e867.js"></script>
+    <!-- <link rel=”stylesheet” id=”font-awesome-css” href=”//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css” type=”text/css” media=”screen”> -->
