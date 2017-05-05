@@ -10,7 +10,7 @@
     <meta property="og:site_name" content="Deep Learning Blogs"/>
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:type"content="article" />
-    {% if page.title == null %}<meta property="og:title" content="Deep Learning Blogs" />{% else %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
+    {% if page.title == null %}<meta property="og:title" content="Deep Learning And AI Revolution" />{% else %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
     <meta property="og:description" content="{% if page.desc %}{{ page.desc | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
     {% if page.og_image_url == null %}<meta property="og:image" content="{{ '/assets/og_image.jpg' | prepend: site.baseurl | prepend: site.url }}" />{% else %}<meta property="og:image" content="{{ page.og_image_url | prepend: site.baseurl | prepend: site.url }}" />{% endif %}
     {% if page.canonical == null %}<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% else %}<link rel="canonical" href="{{ page.canonical | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% endif %}
