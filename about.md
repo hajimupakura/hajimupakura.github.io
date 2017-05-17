@@ -9,6 +9,7 @@ sitemap:
     lastmod: 2017-01-06 15:50:06 +0530
 ---
 Hello World!
+
 I am Haji Mupakura. I do not believe you need a PHD to be a Data Scientist.
 
 I am very passionate about Machine Learning, particularly  Deep Learning, Artificial Intelligence, Computer Vision and Natural Language processing, their uses especially in the Healthcare domain and how these technologies are revolutionizing the way we live. My best open source library for developing deep learning algorithms is Tensorflow.
