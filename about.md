@@ -14,4 +14,4 @@ I am Haji Mupakura. I do not believe you need a PHD to be a Data Scientist.
 
 I am very passionate about Machine Learning, particularly  Deep Learning, Artificial Intelligence, Computer Vision and Natural Language processing, their uses especially in the Healthcare domain and how these technologies are revolutionizing the way we live. My best open source library for developing deep learning algorithms is Tensorflow.
 
-I love to learn and share my knowledge with others and I hope this blog will inspire others who want to pursue a career path in Data Science. I hope you enjoy it.
+I love to learn and share my knowledge with others and I hope this blog will inspire others who want to pursue a career path in Data Science. I am also the Co-Organizer of the Cincinnati Data Science and Engineering MeetUp group which brings up together people and organizations that are interested in Machine Learning and Big Data together to talk about advances and how they are using these technologies in their respective organizations. I hope you enjoy my blog.
