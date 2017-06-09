@@ -24,4 +24,5 @@ http://labs.elsevier.com/news/2016/10/10/cincinnati-apache-spark-meetup-november
 https://www.meetup.com/Cincinnati-Apache-Spark-Meetup/events/234591179/
 
 This one is on Azure Machine Learning
+
 https://www.meetup.com/DataSeed/events/240577560/?_af=event&_af_eid=240577560
