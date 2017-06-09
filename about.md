@@ -18,7 +18,8 @@ I love to learn and share my knowledge with others and I hope this blog will ins
 
 Below are the links to some of the talks I have given on Advanced Analytics and Machine Learning:
 
-This one was on Time Series Analysis (iSax/Pattern Matching Algorithm 
+This one was on Time Series Analysis (iSax/Pattern Matching Algorithm) 
+
 http://labs.elsevier.com/news/2016/10/10/cincinnati-apache-spark-meetup-november-9-cincinnati-mason-ohio 
 
 https://www.meetup.com/Cincinnati-Apache-Spark-Meetup/events/234591179/
